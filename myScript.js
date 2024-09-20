@@ -704,7 +704,7 @@ GDT.addPlatform({
 	marketKeyPoints:[
 		{date:"30/1/3",amount:0.09}
 	],
-	licencePrize : 5000,
+	licencePrize : 0,
 	published : '25/8/2', // 2017
 	platformRetireDate : '260/12/4', // NONDESCRIPT
 	developmentCosts : 4000,
