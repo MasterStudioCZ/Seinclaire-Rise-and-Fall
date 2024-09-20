@@ -2,7 +2,6 @@
 **Seinclaire: Rise and Fall** is a mod for Game Dev Tycoon that adds many new platforms based on computers released by the British company Sinclair Research and American company Timex Corporation. It also contains a few platforms based on several spiritual successors of ZX Spectrum, like ZX Spectrum Next and SAM Coupé.
 
 # Features
-![A promotional image, with all platforms this mod adds listed.](https://raw.githubusercontent.com/MasterStudioCZ/Seinclaire-Rise-and-Fall/refs/heads/main/previews/g02.png)
 * 12 new platforms, with realistic market shares and sprites consistent with that of the base game!
    - CX80 (ZX80)
    - CX81 (ZX81)
@@ -16,10 +15,10 @@
    - CX Spectre Mega (ZX Spectrum Vega)
    - CX Spectre Next (ZX Spectrum Next)
    - CX Spectre Mega+ (ZX Spectrum Vega+)
-
- 
- ![A screenshot, with an example news report.](https://raw.githubusercontent.com/MasterStudioCZ/Seinclaire-Rise-and-Fall/refs/heads/main/previews/g04.png)
 * 46 detailed news reports, capturing both triumphs and failures of Seinclaire Research and others.
+
+![A promotional image, with all platforms this mod adds listed.](https://raw.githubusercontent.com/MasterStudioCZ/Seinclaire-Rise-and-Fall/refs/heads/main/previews/g02.png)
+![A screenshot, with an example news report.](https://raw.githubusercontent.com/MasterStudioCZ/Seinclaire-Rise-and-Fall/refs/heads/main/previews/g04.png)
 # Plans
 * Czech translation!
 * An extension mod which will have this one as a dependency. It will add many new clones of Sinclair devices; however, these ones will be unofficial. They'll also mostly have one problem (see section *Notes*, point 3)...
