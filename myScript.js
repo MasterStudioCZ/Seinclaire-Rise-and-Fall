@@ -1,21 +1,21 @@
-var cx80sprite = './mods/seinclaire/sprites/CX80.png';
-var cx81sprite = './mods/seinclaire/sprites/CX81.png';
-var cxspectreSprite = './mods/seinclaire/sprites/CXSpectre.png';
-var cxspectreplusSprite = './mods/seinclaire/sprites/CXSpectrePlus.png';
-var cxspectre128Sprite = './mods/seinclaire/sprites/CXSpectre128k.png';
-var cxspectreplus2Sprite = './mods/seinclaire/sprites/CXSpectrePlus2.png';
-var cxspectreplus3Sprite = './mods/seinclaire/sprites/CXSpectrePlus3.png';
-var cxspectreplus2ASprite = './mods/seinclaire/sprites/CXSpectrePlus2A.png';
-var times1000sprite = './mods/seinclaire/sprites/Times1000.png';
-var times1500sprite = './mods/seinclaire/sprites/Times1500.png';
-var qjsprite = './mods/seinclaire/sprites/SeinclaireQJ.png';
-var times2068sprite = './mods/seinclaire/sprites/Times2068.png';
-var times2048sprite = './mods/seinclaire/sprites/Times2048.png';
-var c88sprite = './mods/seinclaire/sprites/C88.png';
-var qamsprite = './mods/seinclaire/sprites/QAM.png';
-var megasprite = './mods/seinclaire/sprites/CXMega.png';
-var megaplussprite = './mods/seinclaire/sprites/CXMegaPlus.png';
-var cxspectrenextsprite = './mods/seinclaire/sprites/CXSpectreNext.png';
+var cx80sprite = './mods/Seinclaire Rise and Fall/sprites/CX80.png';
+var cx81sprite = './mods/Seinclaire Rise and Fall/sprites/CX81.png';
+var cxspectreSprite = './mods/Seinclaire Rise and Fall/sprites/CXSpectre.png';
+var cxspectreplusSprite = './mods/Seinclaire Rise and Fall/sprites/CXSpectrePlus.png';
+var cxspectre128Sprite = './mods/Seinclaire Rise and Fall/sprites/CXSpectre128k.png';
+var cxspectreplus2Sprite = './mods/Seinclaire Rise and Fall/sprites/CXSpectrePlus2.png';
+var cxspectreplus3Sprite = './mods/Seinclaire Rise and Fall/sprites/CXSpectrePlus3.png';
+var cxspectreplus2ASprite = './mods/Seinclaire Rise and Fall/sprites/CXSpectrePlus2A.png';
+var times1000sprite = './mods/Seinclaire Rise and Fall/sprites/Times1000.png';
+var times1500sprite = './mods/Seinclaire Rise and Fall/sprites/Times1500.png';
+var qjsprite = './mods/Seinclaire Rise and Fall/sprites/SeinclaireQJ.png';
+var times2068sprite = './mods/Seinclaire Rise and Fall/sprites/Times2068.png';
+var times2048sprite = './mods/Seinclaire Rise and Fall/sprites/Times2048.png';
+var c88sprite = './mods/Seinclaire Rise and Fall/sprites/C88.png';
+var qamsprite = './mods/Seinclaire Rise and Fall/sprites/QAM.png';
+var megasprite = './mods/Seinclaire Rise and Fall/sprites/CXMega.png';
+var megaplussprite = './mods/Seinclaire Rise and Fall/sprites/CXMegaPlus.png';
+var cxspectrenextsprite = './mods/Seinclaire Rise and Fall/sprites/CXSpectreNext.png';
 
 
 GDT.addPlatform({
@@ -38,7 +38,7 @@ GDT.addPlatform({
 			getNotification : function (company) {
 				return new Notification({
 					header : "Industry News".localize(),
-					text : "Seinclaire Research has just discontinued CX80.{n}It was a very popular computer, selling around 100,000 units. And there's not wonder why - it was the first home computer to cost less than 100kr, it had a CPU clocked at 3.55 MHz, and it came with an excellent manual about a programming language BESIC that was on par with college courses.{n}Nevertheless, the device has run its course. It is superceded by CX81, an improved and more popular system.",
+					text : "Seinclaire Research has just discontinued CX80.{n}It was a very popular computer, selling around 100,000 units. And there's no wonder why - it was the first home computer to cost less than 100kr, it had a CPU clocked at 3.55 MHz, and it came with an excellent manual about the programming language BESIC that was on par with college courses.{n}Nevertheless, the device has run its course. It is superseded by CX81, an improved and more popular system.",
 					image : cx80sprite
 				});
 			}
@@ -72,7 +72,7 @@ GDT.addPlatform({
 			getNotification : function (company) {
 				return new Notification({
 					header : "Industry News".localize(),
-					text : "Seinclaire Research's CX81 has been just withdrawn from all airport stores in United Kingdom.{n}UK's government has ordered Seinclaire to stop selling all CX81s in airport stores due to the fears that some travelers from the Eastern Bloc might buy and bring the device with them to help advance Soviet computer industry.{n}While we are sure that this restriction won't really impact CX81's sales, we're not certain whether the limitation will be effective, given the fact that there are already many unauthorized clones of the device in the Eastern Bloc featuring the same technology. ",
+					text : "Seinclaire Research's CX81 has been just withdrawn from all airport stores in the United Kingdom.{n}UK's government has ordered Seinclaire to stop selling all CX81s in airport stores due to the fears that some travellers from the Eastern Bloc might buy and bring the device with them to help advance the Soviet computer industry.{n}While we are sure that this restriction won't really impact CX81's sales, we're not certain whether the limitation will be effective, given the fact that there are already many unauthorized clones of the device in the Eastern Bloc featuring the same technology.",
 					image : cx81sprite
 				});
 			}
@@ -117,7 +117,7 @@ GDT.addPlatform({
 			getNotification : function (company) {
 				return new Notification({
 					header : "Industry News".localize(),
-					text : "Seinclaire and Times Research have just announced a new computer device focused on the North American market, named Times Seinclaire 1000.{n}While it is based of CX81, it has several changes. First of all, it is designed for use with American televisions. Second, it has double of the RAM in CX81 - 2 kilobytes instead of 1.{n}The device will compete with companies like Govodore. Will it succeed? While we don't know that, we certainly know that it'll be released {0} by a company Times Seinclaire, which is a joint venture between Times and Seinclaire. It will come out with a price tag of just 99.95kr.".localize().format(General.getETADescription('1/5/2', '1/7/2')),
+					text : "Seinclaire Research and Times have just announced a new computer device focused on the North American market, named Times Seinclaire 1000.{n}While it is based of CX81, it has several changes. First of all, it is designed for use with American televisions. Second, it has double the RAM in CX81 - 2 kilobytes instead of 1.{n}The device will compete with companies like Govodore. Will it succeed? While we don't know that, we certainly know that it'll be released {0} by a company Times Seinclaire, which is a joint venture between Times and Seinclaire. It will come out with a price tag of just 99.95kr.".localize().format(General.getETADescription('1/5/2', '1/7/2')),
 					image : times1000sprite
 				});
 			}
@@ -128,7 +128,7 @@ GDT.addPlatform({
 			getNotification : function (company) {
 				return new Notification({
 					header : "Industry News".localize(),
-					text : "The launch of Times 1000 has been relatively successful, selling thousands of units during its first days. It advertises itself as 'the cheapest home computer under 100kr', and it is right - it's currently the cheapest device on the North American market.{n}However, it seems like Govodore has taken notice of their latest competitor, announcing quite a big price decrease of their VGC-20 model.{n}It is rumored that Times is already planning to cut the price of their device in half - 49kr. Many experts are predicting the start of a 'price war'. We'll see how it will affect the American market.",
+					text : "The launch of Times 1000 has been relatively successful, selling thousands of units during its first days. It advertises itself as 'the cheapest home computer under 100kr', and it is right - it's currently the cheapest device on the North American market.{n}However, it seems like Govodore has taken notice of their latest competitor, announcing quite a big price decrease of their VGC-20 model.{n}It is rumoured that Times is already planning to cut the price of their device in half - 49kr. Many experts are predicting the start of a 'price war'. We'll see how it will affect the American market.",
 					image : times1000sprite
 				});
 			}
@@ -150,7 +150,7 @@ GDT.addPlatform({
 			getNotification : function (company) {
 				return new Notification({
 					header : "Industry News".localize(),
-					text : "Times Seinclaire has officially discontinued Times 1000 and Times 1500.{n}They probably did so in order to free up the market space for Times Seinclaire 2068, and because Times 1500 has been quite unsuccessful, partially due to its late release after Times 1000, the lack of color display, and due to the competition from Itari, Govodore, and Grapple.",
+					text : "Times Seinclaire has officially discontinued Times 1000 and Times 1500.{n}They probably did so in order to free up the market space for Times Seinclaire 2068, and because Times 1500 has been quite unsuccessful, partially due to its late release after Times 1000, the lack of colour display, and due to the competition from Itari, Govodore, and Grapple.",
 					image : times1500sprite
 				});
 			}
@@ -158,80 +158,6 @@ GDT.addPlatform({
 	]
 });
 
-var eventId = "bostonComputerSociety-83";
-
-var myRandomEvent = {
-	id: eventId,
-	isRandomEvent: false, //if you want to test this event, you can set this to false and it will trigger during dev. of the first game.
-	date: "",
-	maxTriggers: 1,
-	trigger: function (company) {
-		//only in first office and only while a game is in development.
-		//most events that fire during game-dev work better if they don't fire right at the start or right at the end, that's why we use isGameProgressBetween
-		return company.currentLevel == 1 && company.isGameProgressBetween(0.2, 0.9);
-	},
-	//because we dynamically create the notification every time the event triggers, we use getNotification
-	getNotification: function (company) {
-		var game = company.currentGame;
-
-		var msg = "It seems that kids in the neighbourhood have started chatting about your upcoming game {0}. Rumour has it, that Billy, your neighbours kid, snuck into the garage and spied on some of the design papers.{n}How he managed to do this is a mystery. You could swear you were sitting in the garage the entire time!\nHow do you want to react?\n\nYou could talk to the parents to get him punished, ignore the incident or maybe invite some of the neighbours over to show them more of the game."
-			.localize().format(game.title);
-		//notice how we break up the story in two screens by using {n}. This creates a better flow than having one longer block of text.
-		//Also, since this is a story with multiple options and the buttons can only hold a small amount of text, we explain the options beforehand.
-
-		//the chatting among kids, creates a bit of hype.
-		//since the event isn't delayed we can do this directly on the company, otherwise we could call adjustHype() on the notification object to schedule the effect with the notification.
-		company.adjustHype(5 + 10 * company.getRandom());//increase hype between 5 and 15.
-
-		return new Notification({
-			sourceId: eventId,//this is important, otherwise nothing will happen when the player selects an option.
-			header: "Billy, the kid".localize(),//granted, this is a silly header.
-			text: msg,
-			options: ["Talk to parents", "Ignore incident", "Invite over"]//maximum of three choices
-		});
-	},
-	complete: function (decision) {
-		//decision is a number and will correspond to the index of the option that was chosen.
-		//0=talk to parents, 1=ignore incident, 2=invite over
-		//it's best if every decision has a different outcome
-
-		var company = GameManager.company;//we fetch the company object for use later.
-
-		if (decision === 0) {//talk to parents
-			//we create a new, simple notification to tell the outcome. no sourceId or options are necessary this time.
-			var n = new Notification({
-				header: "Billy, the kid".localize(),//keep the header consistent with the prior part of the story
-				text: "You talk to the parents about Billy's actions and they promise it won't happen again."
-			});
-			n.adjustHype(5 + 10 * company.getRandom());//increase hype between 5 and 15.
-			
-			company.activeNotifications.addRange(n.split()); //since this notificaton should be shown immediately (not one second later) we insert it into activeNotifications. calling .split() ist just good practice in case we use {n} inside the notification.
-			return;
-		}
-		if (decision === 1) {//ignore incident
-			//nothing happens at first, but in a few weeks Billy again breaks in...
-			var n = new Notification({
-				header: "Vanished documents".localize(),
-				text: "You were working on some intricate design documents the other day but now you can't find them anymore. Small foot prints on the floor suggest that someone might have taken them.\nUnfortunately you have to recreate the documents (-500 cr.) - This might have been Billy's work",
-				weeksUntilFired: 1 + 2 * company.getRandom()
-			});
-			n.adjustCash(-500, "restoring documents");
-			company.notifications.push(n);//this notification isn't shown immediately so we add it to the normal company.notifications array.
-			return;
-		}
-		if (decision === 2) {//invite him over
-			var n = new Notification({
-				header: "Billy, the kid".localize(),//keep the header consistent with the prior part of the story
-				text: "You invite Billy, his parents and a couple of other interested neighbours over and show them the game in-progress. The kids are super-excited and for weeks you hear them talk about it afterwards."
-			});
-			n.adjustHype(15 + 25 * company.getRandom());//increase hype between 15 and 40
-			company.activeNotifications.addRange(n.split()); //since this notificaton should be shown immediately (not one second later) we insert it into activeNotifications. calling .split() ist just good practice in case we use {n} inside the notification.
-			return;
-		}
-	}
-};
-
-GDT.addEvent(myRandomEvent);
 GDT.addPlatform({
 	id : 'times2068',
 	name : 'Times Seinclaire 2068',
@@ -252,7 +178,7 @@ GDT.addPlatform({
 			getNotification : function (company) {
 				return new Notification({
 					header : "Industry News".localize(),
-					text : "Times Seiclaire launched a new device today. It is called Times Seinclaire 2068 and it is a version of CX Spectre adapted for the American market. Exactly like Times Seinclaire 1000 and 1500, just more advanced.{n}So, what are the improvements over the aforementioned models? Well, 2068 boasts a slightly better keyboard, twin joystick ports, a built-in cartridge reader, 48 kilobytes of RAM, and a new chip named Times SVLD that supports a resolution up to 512x192 pixels.{n}Will it be successful, or will it end up with the same dissapointingly low sales as Times 1500? We'll soon see. The 2068 is currently selling for 199kr.",
+					text : "Times Seiclaire launched a new device today. It is called Times Seinclaire 2068 and it is a version of CX Spectre adapted for the American market. Exactly like Times Seinclaire 1000 and 1500, just more advanced.{n}So, what are the improvements over the aforementioned models? Well, 2068 boasts a slightly better keyboard, twin joystick ports, a built-in cartridge reader, 48 kilobytes of RAM, and a new chip named Times SVLD that supports a resolution of up to 512x192 pixels.{n}Will it be successful, or will it end up with the same disappointingly low sales as Times 1500? We'll soon see. The 2068 is currently selling for 199kr.",
 					image : times2068sprite
 				});
 			}
@@ -297,7 +223,7 @@ GDT.addPlatform({
 			getNotification : function (company) {
 				return new Notification({
 					header : "Industry News".localize(),
-					text : "Times Portugal, the Portuguese branch of Times Corporation, released a new clone of CX Spectre. It is named Times Computer 2048 and it is going to be sold exclusively in Portugal and Chile.{n}The computer is equipped with the Cilog C80 CPU clocked at 3.5 MHz, the Times SVLD graphical chip, 48 kilobytes of RAM, and a built-in Campston Joystick.",
+					text : "Times Portugal, the Portuguese branch of Times Corporation, has released a new clone of CX Spectre. It is named Times Computer 2048 and it is going to be sold exclusively in Portugal and Chile.{n}The computer is equipped with the Cilog C80 CPU clocked at 3.5 MHz, the Times SVLD graphical chip, 48 kilobytes of RAM, and a built-in Campston Joystick.",
 					image : times2048sprite
 				});
 			}
@@ -368,14 +294,14 @@ GDT.addPlatform({
 	genreWeightings : [0.6, 0.9, 1, 0.8, 0.9, 0.9],
 	audienceWeightings : [0.9, 1, 1],
 	techLevel : 2,
-	imageDates: ["1/6/1", "2/7/1", "3/4/3", "3/11/1", "4/1/4", "4/9/3", "5/5/2"],
+	iconUri : cxspectreSprite,
 		events : [{
 			id : 'cxspectre-1',
 			date : '1/6/1',
 			getNotification : function (company) {
 				return new Notification({
 					header : "Industry News".localize(),
-					text : "A British company named Seinclaire Research, known for their CX80 and CX81 devices, has just launched their new computer, CX Spectre. Is is available in two models - one with 16 and the other one with 48 kilobytes of RAM.{n}Both models feature C80 processor clocked at 3.5 MHz and a support for 256x192 resolution. They are available for 125kr and 175kr, respectively.{n}The device is also equipped with an unusual rubber keyboard, best described perhaps as 'dead flesh'. However, that doesn't seem to deter customers that are already buying it in thousands.",
+					text : "A British company named Seinclaire Research, known for their CX80 and CX81 devices, has just launched their new computer, CX Spectre. It is available in two models - one with 16 and the other one with 48 kilobytes of RAM.{n}Both models feature the C80 processor clocked at 3.5 MHz and support 256x192 resolution. They are available for 125kr and 175kr, respectively.{n}The device is also equipped with an unusual rubber keyboard, best described perhaps as 'dead flesh'. However, that doesn't seem to deter customers who are already buying it in thousands.",
 					image : cxspectreSprite
 				});
 			}
@@ -386,7 +312,7 @@ GDT.addPlatform({
 			getNotification : function (company) {
 				return new Notification({
 					header : "Industry News".localize(),
-					text : "CX Spectre, a computer released by Seinclaire Research, enjoys a large amount of success. However, its sales are limited by the company's method of distribution - instead of relying on retailers like other manufacturers, it utilizes a mail-order system.{n}However, this system is quite slow and uneffective, leading to many late deliveries. This seems to frustrate customers, who strongly critise it.{n}It is reported that there is currently a backlog of over 40,000 units. The company has already issued a public apology.",
+					text : "CX Spectre, a computer released by Seinclaire Research, enjoys a large amount of success. However, its sales are limited by the company's method of distribution - instead of relying on retailers like other manufacturers, it utilizes a mail-order system.{n}However, this system is quite slow and ineffective, leading to many late deliveries. This seems to frustrate customers, who strongly criticise it.{n}It is reported that there is currently a backlog of over 40,000 units. The company has already issued a public apology.",
 					image : cxspectreSprite
 				});
 			}
@@ -397,7 +323,7 @@ GDT.addPlatform({
 			getNotification : function (company) {
 				return new Notification({
 					header : "Industry News".localize(),
-					text : "A new model of CX Spectre, dubbed 'CX Spectre+', has been launched.{n}It is pretty much identical to the first model, with the only differences being a new keyboard styled like the one included with Seinclaire QJ.{n}That said, it's been reported that the new model has a much higher failure rate than the original ones.",
+					text : "A new model of CX Spectre, dubbed 'CX Spectre+', has been launched.{n}It is pretty much identical to the first model, with the only difference being a new keyboard styled like the one included with Seinclaire QJ.{n}That said, it's been reported that the new model has a much higher failure rate than the original ones.",
 					image : cxspectreplusSprite
 				});
 			}
@@ -408,7 +334,7 @@ GDT.addPlatform({
 			getNotification : function (company) {
 				return new Notification({
 					header : "Industry News".localize(),
-					text : "Seinclaire has announced that it has sold the fifth millionth unit of CX Spectre. This is a significant milestone, further cementing the device's achievement of being the most successful British computer.{n}However, things are not so idylic as they might seem. Seinclaire QJ, another of the company's devices, isn't selling as well as predicted. The company is also performing radical price cuts due to the anticipated competition from American manufacturers.",
+					text : "Seinclaire has announced that it has sold the fifth millionth unit of CX Spectre. This is a significant milestone, further cementing the device's achievement of being the most successful British computer.{n}However, things are not as idyllic as they might seem. Seinclaire QJ, another of the company's devices, isn't selling as well as predicted. The company is also performing radical price cuts due to the anticipated competition from American manufacturers.",
 					image : cxspectreplusSprite
 				});
 			}
@@ -419,7 +345,7 @@ GDT.addPlatform({
 			getNotification : function (company) {
 				return new Notification({
 					header : "Industry News".localize(),
-					text : "A new model of CX Spectre, named CX Spectre 128, has been launched. It features a large amount of improvements over the previous model. It was co-developed by a Spanish company called Investrónics.{n}CX Spectre 128 bears its name after the 128 kilobytes of RAM it bears, which is a huge leap forward compared to the 48 kilobytes available previously. It also has a new sound chip and MIDI capabilities. It looks very similar to the previous model, with the only significant difference being a new external heatsink on the right side of the device. It has already let some to nickname the system as 'The Toast Rack'.{n}Either way, the device is currently selling only in Spain, though it will be released in the rest of the world in a few months. It is available for a low price of 179kr.",
+					text : "A new model of CX Spectre, named CX Spectre 128, has been launched. It features a large amount of improvements over the previous model. It was co-developed by a Spanish company called Investrónics.{n}CX Spectre 128 bears its name after the 128 kilobytes of RAM it bears, which is a huge leap forward compared to the 48 kilobytes available previously. It also has a new sound chip and MIDI capabilities. It looks very similar to the previous model, with the only significant difference being a new external heatsink on the right side of the device. It has already led to some nicknaming the system as 'The Toast Rack'.{n}Either way, the device is currently selling only in Spain, though it will be released in the rest of the world in a few months. It is available for a low price of 179kr.",
 					image : cxspectre128Sprite
 				});
 			}
@@ -430,7 +356,7 @@ GDT.addPlatform({
 			getNotification : function (company) {
 				return new Notification({
 					header : "Industry News".localize(),
-					text : "Amstart, another British company, has recently acquired the CX Spectre and the trademark 'Seinclaire'. Seinclaire Research has already previously tried to sell its line of devices and trademark to secure funding for a restructuralization of the company, but that deal was later terminated.{n}It is said that Seinclaire Research is making changes in their company due to Seinclaire QJ and an electric tricycle Seinclaire C5. Both of these projects have brought in huge losses, undermining the company's reputation.",
+					text : "Amstart, another British company, has recently acquired the CX Spectre and the trademark 'Seinclaire' for 5,000,000kr. Seinclaire Research has already previously tried to sell its line of devices and trademark to secure funding for a restructuralization of the company, but that deal was later terminated.{n}It is said that Seinclaire Research is making changes in their company due to immense losses caused by Seinclaire QJ and an electric tricycle Seinclaire C5; they both have brought in huge losses, estimated at around 1,000,000kr per month.",
 					image : cxspectre128Sprite
 				});
 			}
@@ -452,7 +378,7 @@ GDT.addPlatform({
 			getNotification : function (company) {
 				return new Notification({
 					header : "Industry News".localize(),
-					text : "Amstart is launching a new model of CX Spectre today. It is named CX Spectre +3 and it brings several changes to the table.{n}First of all, the device has a built-in floppy disc drive instead of a cassette recorder present in the +2. The machine is also the first from the CX Spectre line that supports the CP/O operating system without any additional hardware.{n}However, the other changes are much more controversional - first, the expansion board has been slightly changed. That introduces many incompatibilities from peripherals made for the older models, including the CX Minidrive and CX Interface 1. Additionaly, several keypad scanning routies were deleted, making some of the older games incompatible with the device.{n}CX Spectre +3 is available for 249kr. However, Amstart has announced that the price will be later lowered to 199kr.",
+					text : "Amstart is launching a new model of CX Spectre today. It is named CX Spectre +3 and it brings several changes to the table.{n}First of all, the device has a built-in floppy disc drive instead of a cassette recorder present in the +2. The machine is also the first from the CX Spectre line that supports the CP/O operating system without any additional hardware.{n}However, the other changes are much more controversial - first, the expansion board has been slightly changed. That introduces many incompatibilities from peripherals made for the older models, including the CX Minidrive and CX Interface 1. Additionally, several keypad scanning routines were deleted, making some of the older games incompatible with the device.{n}CX Spectre +3 is available for 249kr. However, Amstart has announced that the price will be later lowered to 199kr.",
 					image : cxspectreplus3Sprite
 				});
 			}
@@ -463,7 +389,7 @@ GDT.addPlatform({
 			getNotification : function (company) {
 				return new Notification({
 					header : "Industry News".localize(),
-					text : "A new version of CX Spectre +2 has launched. It is called CX Spectre +2A.{n}It doesn't introduce many improvements or changes. The most significant and critised one is the slightly changed motherboard. That introduces many new incompatibilites, just like the +3 did.",
+					text : "A new version of CX Spectre +2 has launched. It is called CX Spectre +2A.{n}It doesn't introduce many improvements or changes. The most significant and criticised one is the slightly changed motherboard. That introduces many new incompatibilities, just like the +3 did.",
 					image : cxspectreplus2ASprite
 				});
 			}
@@ -474,7 +400,7 @@ GDT.addPlatform({
 			getNotification : function (company) {
 				return new Notification({
 					header : "Industry News".localize(),
-					text : "Amstart has decided to launch yet another model of CX Spectre. It is called CX Spectre +2B.{n}Just like the previous model, it doesn't really introduce anything new, except for some incompatibilities and changes to the generation of audio output signal that were made due to some issues with audio clipping in the previous models.",
+					text : "Amstart has decided to launch yet another model of CX Spectre. It is called CX Spectre +2B.{n}Just like the previous model, it doesn't really introduce anything new, except for some incompatibilities and changes to the generation of the audio output signal that were made due to some issues with audio clipping in the previous models.",
 					image : cxspectreplus2ASprite
 				});
 			}
@@ -485,7 +411,7 @@ GDT.addPlatform({
 			getNotification : function (company) {
 				return new Notification({
 					header : "Industry News".localize(),
-					text : "A new model of CX Spectre, dubbed CX Spectre +3B, has been launched.{n}Like +2B and +2A, it doesn't bring any innovations to the table. It's biggest change is a small fix dedicated to solve the issues with audio clipping in the previous devices. +2B has already done this, but +3B is focused on the existing +3 users rather than +2 ones.",
+					text : "A new model of CX Spectre, dubbed CX Spectre +3B, has been launched.{n}Like +2B and +2A, it doesn't bring any innovations to the table. Its biggest change is a small fix dedicated to solving the issues with audio clipping in the previous devices. +2B has already done this, but +3B is focused on the existing +3 users rather than +2 ones.",
 					image : cxspectreplus3Sprite
 				});
 			}
@@ -496,7 +422,7 @@ GDT.addPlatform({
 			getNotification : function (company) {
 				return new Notification({
 					header : "Industry News".localize(),
-					text : "Amstrad has just announced that they'll be discontinuing CX Spectre {0}.{n}CX Spectre has made a huge mark on the computer industry. Just like CX81, it introduced thousands of people to programming thanks to its implementation of the Seinclaire BESIC programming language. It also significantly advanced the UK's IT industry. ".localize().format(General.getETADescription('6/3/4', '6/9/4')),
+					text : "Amstrad has just announced that they'll be discontinuing CX Spectre {0}.{n}CX Spectre has made a huge mark on the computer industry. Just like CX81, it introduced thousands of people to programming thanks to its implementation of the Seinclaire BESIC programming language. It also significantly advanced the UK's IT industry.".localize().format(General.getETADescription('6/3/4', '6/9/4')),
 					image : cxspectreplus3Sprite
 				});
 			}
@@ -594,7 +520,7 @@ GDT.addPlatform({
 			getNotification : function (company) {
 				return new Notification({
 					header : "Industry News".localize(),
-					text : "During today's announcement, Seinclaire Research has announced the discontinuation of C88.{n}However innovative or original C88 was, it didn't sell many units, which is partially attributed to the Seinclaire QJ's failure and the subsequent loss of the company's reputation. It's worth mentioning that CX Spectre is still undoubtedly the most popular device from Sir Clive Seinclaire.{n}Nonetheless, C88 is going to be discontinued {0}.".localize().format(General.getETADescription('5/2/1', '5/5/2')),
+					text : "During today's announcement, Seinclaire Research has announced the discontinuation of C88.{n}However innovative or original C88 was, it didn't sell many units, which is partially attributed to the Seinclaire QJ's failure and the subsequent loss of the company's reputation. It's worth mentioning that the CX Spectre is still undoubtedly the most popular device from Sir Clive Seinclaire.{n}Nonetheless, C88 is going to be discontinued {0}.".localize().format(General.getETADescription('5/2/1', '5/5/2')),
 					image : c88sprite
 				});
 			}
@@ -704,7 +630,7 @@ GDT.addPlatform({
 	startAmount : 0.0006,
 	unitsSold : 0.0006, // 600 units. Multiplier: 1
 	licencePrize : 12000,
-	published : '25/10/2', // 2015
+	published : '25/10/2', // 2018
 	platformRetireDate : '25/12/1', // cca 2015
 	developmentCosts : 3500,
 	genreWeightings : [0.6, 0.6, 0.7, 0.9, 1, 1],
@@ -779,7 +705,7 @@ GDT.addPlatform({
 		{date:"30/1/3",amount:0.09}
 	],
 	licencePrize : 5000,
-	published : '25/8/2', // 2015
+	published : '25/8/2', // 2017
 	platformRetireDate : '260/12/4', // NONDESCRIPT
 	developmentCosts : 4000,
 	genreWeightings : [0.6, 0.6, 0.7, 0.9, 1, 1],
@@ -814,7 +740,7 @@ GDT.addPlatform({
 			getNotification : function (company) {
 				return new Notification({
 					header : "Industry News".localize(),
-					text : "A few years later, fully assembled CX Spectre Next devices are finally being shipped. The first impressions? It was worth the wait.{n}The keyboard is nicely responsive, though its layout may initially feel strange due to the different layout than PC keyboards have. The device also has MANY connections, including HDNI and VGX for video output, UBS ports, and two joystick ports.",
+					text : "A few years later, fully assembled CX Spectre Next devices are finally being shipped. The first impressions? It was worth the wait.{n}The keyboard is nicely responsive, though its layout may initially feel strange due to the different layout than PC keyboards usually have. The device also has MANY connections, including HDNI and VGX for video output, UBS ports, and two joystick ports.",
 					image : cxspectrenextsprite
 				});
 			}
@@ -842,4 +768,19 @@ GDT.addPlatform({
 			}
 		}
 	]
+});
+	
+GDT.addEvent({
+	id: "SeinclaireDeath",
+	date: "28/9/3",
+	isRandom: false,
+	ignoreGameLengthModifier: false,
+	type: NotificationType.IndustryNews,
+	maxTriggers: 1,
+	getNotification: function(company){ return new Notification({
+	header: "Obituary",
+	text: "Sir Clive Seinclaire, a prominent English inventor and entrepeneur known best for his role in the consumer electronics industry in the 70s and 80s, has passed away following an illness related to cancer he battled for over a decade. He was 81 years old.{n} Sir Seinclaire was a highly influential pioneer in the early home computing market. He founded Seinclaire Research Ltd., the company responsible for groundbreaking devices like CX80, CX81, and - most famously - CX Spectre. His role in helping to establish the UK computer market led to him being knighted in 1983. Curiously enough, though, he did not use computers himself.{n}He was also involved in other ventures. In 1983, he released PTV80 under Seinclaire Research, a portable mini television. Two years later, he launched Seiclaire C5, a small electric vehicle manufactured by his another company, Seinclaire Vehicles. Both of these products were financial failures, but they are considered to be ahead of their time.{n}These failures and the low sales of rushed Seinclaire QJ culminated in Sir Seinclaire selling CX Spectre to Amstart. The company was soon reduced to an R&D business and a holding company. By 1990, it downsized from 130 employees to only three (including Sir Seinclaire himself) and its activities were concentrated on personal vehicles. Unfortunately, none of C5's (indirect) successors had success.{n}But despite these missteps, his legacy will be still relevant for years to come, primarily thanks to the large community of enthusiasts who are still developing new software and hardware for his computers.",
+	buttonText: "...",
+	weeksUntilFired: 0
+	});} 
 });
