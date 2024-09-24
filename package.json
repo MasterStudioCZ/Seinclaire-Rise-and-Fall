@@ -1,11 +1,12 @@
 {
-	"id" : "seinclaireRiseAndFall",
-	"name" : "Seinclaire: Rise and Fall",
-	"version" : "1.0.0",
-	"author" : "MasterStudioCZ <czmasterstudio@gmail.com>",
-	"description" : "A mod that adds many new platforms from Sinclair Research. It also includes Timex devices and several spiritual successors, like ZX Spectrum Next or SAM Coupé.",
-	"main" : "./myScript.js",
-	"dependencies" : {
-		"gdt-modAPI":"0.1.x"
-	}
+    "id": "seinclaireRiseAndFall",
+    "name": "Seinclaire: Rise and Fall",
+    "version": "1.0.1",
+    "author": "MasterStudioCZ <czmasterstudio@gmail.com>",
+    "description": "A mod that adds 12 new platforms from Sinclair Research and Timex Corporation. Also includes several clones of ZX Spectrum, most notably ZX Spectrum Next!",
+    "main": "./myScript.js",
+    "dependencies": {
+        "gdt-modAPI": "0.1.x"
+    },
+    "image": "logo-1-0-1.png"
 }

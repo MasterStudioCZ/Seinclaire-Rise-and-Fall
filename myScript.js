@@ -1,21 +1,21 @@
-var cx80sprite = './mods/Seinclaire Rise and Fall/sprites/CX80.png';
-var cx81sprite = './mods/Seinclaire Rise and Fall/sprites/CX81.png';
-var cxspectreSprite = './mods/Seinclaire Rise and Fall/sprites/CXSpectre.png';
-var cxspectreplusSprite = './mods/Seinclaire Rise and Fall/sprites/CXSpectrePlus.png';
-var cxspectre128Sprite = './mods/Seinclaire Rise and Fall/sprites/CXSpectre128k.png';
-var cxspectreplus2Sprite = './mods/Seinclaire Rise and Fall/sprites/CXSpectrePlus2.png';
-var cxspectreplus3Sprite = './mods/Seinclaire Rise and Fall/sprites/CXSpectrePlus3.png';
-var cxspectreplus2ASprite = './mods/Seinclaire Rise and Fall/sprites/CXSpectrePlus2A.png';
-var times1000sprite = './mods/Seinclaire Rise and Fall/sprites/Times1000.png';
-var times1500sprite = './mods/Seinclaire Rise and Fall/sprites/Times1500.png';
-var qjsprite = './mods/Seinclaire Rise and Fall/sprites/SeinclaireQJ.png';
-var times2068sprite = './mods/Seinclaire Rise and Fall/sprites/Times2068.png';
-var times2048sprite = './mods/Seinclaire Rise and Fall/sprites/Times2048.png';
-var c88sprite = './mods/Seinclaire Rise and Fall/sprites/C88.png';
-var qamsprite = './mods/Seinclaire Rise and Fall/sprites/QAM.png';
-var megasprite = './mods/Seinclaire Rise and Fall/sprites/CXMega.png';
-var megaplussprite = './mods/Seinclaire Rise and Fall/sprites/CXMegaPlus.png';
-var cxspectrenextsprite = './mods/Seinclaire Rise and Fall/sprites/CXSpectreNext.png';
+var cx80sprite = '../sprites/CX80.png';
+var cx81sprite = '../sprites/CX81.png';
+var cxspectreSprite = '../sprites/CXSpectre.png';
+var cxspectreplusSprite = '../sprites/CXSpectrePlus.png';
+var cxspectre128Sprite = '../sprites/CXSpectre128k.png';
+var cxspectreplus2Sprite = '../sprites/CXSpectrePlus2.png';
+var cxspectreplus3Sprite = '../sprites/CXSpectrePlus3.png';
+var cxspectreplus2ASprite = '../sprites/CXSpectrePlus2A.png';
+var times1000sprite = '../sprites/Times1000.png';
+var times1500sprite = '../sprites/Times1500.png';
+var qjsprite = '../sprites/SeinclaireQJ.png';
+var times2068sprite = '../sprites/Times2068.png';
+var times2048sprite = '../sprites/Times2048.png';
+var c88sprite = '../sprites/C88.png';
+var qamsprite = '../sprites/QAM.png';
+var megasprite = '../sprites/CXMega.png';
+var megaplussprite = '../sprites/CXMegaPlus.png';
+var cxspectrenextsprite = '../sprites/CXSpectreNext.png';
 
 
 GDT.addPlatform({
