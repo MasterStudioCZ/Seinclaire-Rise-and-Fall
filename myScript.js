@@ -493,8 +493,8 @@ GDT.addPlatform({
 	id : 'c88',
 	name : 'Cambridge C88',
 	company : 'Seinclaire Research',
-	startAmount : 0.013,
-	unitsSold : 0.013, // 65 000 units. Multiplier: 0.4 (original: 0.2)
+	startAmount : 0.026,
+	unitsSold : 0.026, // 65 000 units. Multiplier: 0.4 (original: 0.2)
 	licencePrize : 8000,
 	published : '4/2/4', // 1987
 	platformRetireDate : '5/5/2', // 1989
